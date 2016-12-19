@@ -1,0 +1,25 @@
+sudo apt-get install git
+
+git config --global user.name "user_name"
+git config --global user.email "abc123@gmail.com"
+git init ProjectFolder
+
+git mv filename.c /folder 
+git status
+git commit -a /or/ git commit -m "msg" 
+
+
+
+
+…or create a new repository on the command line
+
+echo "# Linux" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ie21/Linux.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/ie21/Linux.git
+git push -u origin master
